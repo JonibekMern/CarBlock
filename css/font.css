@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "PT Sans";
+  src: url(../font/PT_Sans/PTSans-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "PT Sans";
+  src: url(../font/PT_Sans/PTSans-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: "PT Sans";
+  src: url(../font/PT_Sans/PTSans-Italic.ttf);
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Lato";
+  src: url(../font/Lato/Lato-Regular.ttf);
+  font-weight: 400;
+}
+/* <i class="fas fa-search"></i> f002 */
+
+@font-face {
+  font-family: "FontAwesome Solid";
+  src: url(../WebFonts/fa-solid-900.woff2);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "FontAwesome Brands";
+  src: url(../WebFonts/fa-brands-400.woff2);
+  font-weight: 400;
+}
+.fas {
+  font-family: "FontAwesome Solid";
+  font-weight: 400;
+}
+.fab {
+  font-family: "FontAwesome Brands";
+  font-weight: 400;
+}
+.search::after {
+  content: "\f002";
+  font-style: normal;
+  color: #929eaf;
+}
+.instagram::after {
+  content: "\f16d";
+  font-style: normal;
+  font-size: 18px;
+}
+.left::after {
+  content: "\f053";
+  font-style: normal;
+}
+.right::after {
+  content: "\f054";
+  font-style: normal;
+}
+.f-facebook::after {
+  content: "\f39e";
+  font-style: normal;
+  color: #fff;
+}
+.f-twitter::after {
+  content: "\f099";
+  font-style: normal;
+  color: #fff;
+}
+.f-pinterest::after {
+  content: "\f231";
+  font-style: normal;
+  color: #fff;
+}
+.f-google::after {
+  content: "\f0d5";
+  font-style: normal;
+  color: #fff;
+}
+.f-instagram::after {
+  content: "\f16d";
+  font-style: normal;
+  color: #fff;
+}
